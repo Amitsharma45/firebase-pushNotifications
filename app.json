@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pushnotif",
-    "slug": "pushnotif",
+    "slug": "demoappg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.amitsharma45.pushnotif"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amitsharma45.pushnotif",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da6bed1b-833e-427e-a505-a77c800ded32"
+      }
+    },
+    "owner": "amitsharma45"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073129079692",
+    "project_id": "tesing-3a0aa",
+    "storage_bucket": "tesing-3a0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073129079692:android:72de307d733e2a63e8cca9",
+        "android_client_info": {
+          "package_name": "com.amitsharma45.pushnotif"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWQpTGT1umLvB3Vrh5C-dq6HhaVi1AWR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
